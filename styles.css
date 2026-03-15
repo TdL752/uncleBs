@@ -96,7 +96,7 @@ body {
     padding: 50px 20px;
 }
 
-.review-container {
+.top-container {
     width: 90%;
     margin: 50px auto 50px auto;
     padding: 50px 20px;
@@ -108,7 +108,7 @@ body {
     color: rgb(83, 83, 83);
 }
 
-.review, #about-inner-container {
+.inner-container {
     width: 90%;
     max-width: 600px;
     padding: 40px;
@@ -126,6 +126,10 @@ body {
 .text-content {
     font-family: roboto, sans-serif;
     font-size: 20px;
+}
+
+.stars {
+    width: 125px;
 }
 
 #footer {
@@ -214,14 +218,31 @@ a:hover {
         width: 200px;
     }
 
-    .review-container {
-        margin: 482px auto 20px auto;
-        width: 85%;
-        padding: 15px;
+    #about {
+        margin: 482px auto 50px auto;
+        padding: 50px 20px;
     }
 
-    .review {
-        width: 75%;
+    .top-container {
+        margin: 100px auto;
+        width: 90%;
+        padding: 5px;
+    }
+
+    .inner-container {
+        width: 80%;
         padding: 30px;
+    }
+
+    .text-content {
+        font-size: 18px;
+    }
+
+    #inner-footer-left, #inner-footer-right {
+        width: 50%;
+    }
+
+    .footer-text {
+        font-size: 13px;
     }
 }
